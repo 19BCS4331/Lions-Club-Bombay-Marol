@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex-row gap-8">
           {/* Contact Information */}
           <div className="flex flex-col space-y-6 justify-center">
-            <div className="bg-white rounded-xl p-6 shadow-lg flex-col self-center w-[50%]">
+            <div className="bg-white rounded-xl p-6 shadow-lg flex-col self-center w-full md:w-[50%]">
               <h3 className="text-xl font-bold text-blue-800 mb-5">Contact Information</h3>
               
               <div className="flex flex-col align-center gap-10 justify-center self-center">
@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-blue-800 text-white rounded-xl p-6 w-[50%] self-center">
+            {/* <div className="bg-blue-800 text-white rounded-xl p-6 w-full md:w-[50%] self-center">
               <h3 className="text-xl font-bold mb-4">Emergency Support</h3>
               <p className="text-blue-100 mb-4">
                 Need immediate assistance or want to report a community emergency? 
@@ -81,7 +81,7 @@ const Contact = () => {
               <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-2 px-4 rounded-lg transition-colors duration-200 text-sm">
                 Emergency Contact
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}

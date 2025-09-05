@@ -74,14 +74,14 @@ const Activities = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl text-white p-8 text-center">
+        <div className="mt-16 bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl text-white p-8 text-center flex flex-col items-center">
           <h3 className="text-2xl font-bold mb-4">Want to Get Involved?</h3>
           <p className="text-blue-100 mb-6">
             Join us in making a difference in the Marol community. Every helping hand matters!
           </p>
-          <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+          <a href="https://wa.me/919869253803?text=I+want+to+join+Lions+Club+Marol%21" target="_blank" rel="noopener noreferrer" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center w-[100%] md:w-[25%]">
             Volunteer With Us
-          </button>
+          </a>
         </div>
       </div>
     </section>

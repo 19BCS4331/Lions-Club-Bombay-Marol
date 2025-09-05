@@ -6,7 +6,7 @@ const Members = () => {
       name: "Babu O. Varghese",
       position: "President",
       years: "2025-26",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
+      // image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
       icon: <Crown className="w-5 h-5" />
     },
     // {
@@ -20,14 +20,14 @@ const Members = () => {
       name: "Jacob Abraham",
       position: "Secretary",
       years: "2025-26",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300",
+      // image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300",
       icon: <Users className="w-5 h-5" />
     },
     {
       name: "Nikhil N. Gokarn",
       position: "Treasurer",
       years: "2025-26",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300",
+      // image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300",
       icon: <Star className="w-5 h-5" />
     }
   ];
@@ -47,11 +47,11 @@ const Members = () => {
           {leadership.map((member, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
               <div className="relative">
-                <img 
+                {/* <img 
                   src={member.image} 
                   alt={member.name}
                   className="w-full h-64 object-cover"
-                />
+                /> */}
                 <div className="absolute top-4 right-4 bg-yellow-500 text-blue-900 p-2 rounded-full">
                   {member.icon}
                 </div>
@@ -99,9 +99,9 @@ const Members = () => {
               in Marol. Together, we can achieve more than we ever could alone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-6 rounded-lg transition-all duration-300">
+              <a href="https://wa.me/919869253803?text=I+want+to+join+Lions+Club+Marol%21" target="_blank" rel="noopener noreferrer" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-6 rounded-lg transition-all duration-300">
                 Join Our Club
-              </button>
+              </a>
               {/* <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-lg transition-all duration-300">
                 Learn About Membership
               </button> */}
