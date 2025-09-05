@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
               <Users className="w-6 h-6 text-blue-900" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">50+ Active Members</h3>
+            <h3 className="text-xl font-semibold mb-2">100+ Active Members</h3>
             <p className="text-blue-100">Dedicated volunteers serving the Marol community with passion and commitment.</p>
           </div>
 
