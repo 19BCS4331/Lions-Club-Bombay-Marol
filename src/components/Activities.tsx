@@ -15,7 +15,7 @@ const Activities = () => {
       title: "Education Support",
       description: "Scholarship programs, school supply donations, and educational workshops for children in local communities.",
       image: "https://images.pexels.com/photos/8197526/pexels-photo-8197526.jpeg?auto=compress&cs=tinysrgb&w=400",
-      stats: "50+ students supported"
+      stats: "1000+ students supported"
     },
     {
       icon: <Leaf className="w-8 h-8" />,
