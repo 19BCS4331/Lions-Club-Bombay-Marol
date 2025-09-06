@@ -8,7 +8,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-blue-800 mb-6">About Lions Club Marol</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Established in 1985, Lions Club Marol has been a cornerstone of community service 
+            Established in 1971, Lions Club Marol has been a cornerstone of community service 
             in the bustling Marol area of Andheri East, Mumbai. We are proud members of Lions 
             Clubs International, the world's largest service club organization.
           </p>
